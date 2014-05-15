@@ -1,0 +1,7 @@
+name: SparklingTools
+version: 1.5.7
+main: com.darkstar.emeraldtools.SparklingTools
+permissions:
+    stools.sword:
+        default: op 
+        description: Gives access to craft an emerald sword

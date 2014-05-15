@@ -1,0 +1,93 @@
+Config:
+  Exp:
+    Blocks:
+      Anvil: 0
+      Beacon: 0
+      Bedrock: 0
+      Bookcase: 0
+      Brick: 0
+      BrickStairs: 0
+      Cactus: 0
+      Chest: 0
+      ClayBlock: 0
+      CoalBlock: 0
+      CoalOre: 1
+      Cobblestone: 0
+      CobblestoneStairs: 0
+      CobblestoneWall: 0
+      Cobweb: 0
+      CommandBlock: 0
+      DiamondBlock: 0
+      DiamondOre: 5
+      Dirt: 0
+      Dispenser: 0
+      Dropper: 0
+      EmeraldBlock: 0
+      EmeraldOre: 5
+      EnchantmentTable: 0
+      Enderchest: 0
+      EndStone: 0
+      Fence: 0
+      Furnace: 0
+      Glass: 0
+      GlowStone: 0
+      GoldBlock: 0
+      GoldOre: 0
+      Grass: 0
+      Gravel: 0
+      HardenedClay: 0
+      HayBale: 0
+      Ice : 0
+      IronBlock: 0
+      IronOre: 0
+      JackOLantern: 0
+      Jukebox: 0
+      LapisBlock: 0
+      LapisOre: 1
+      Leaves: 0
+      Melon: 0
+      MobSpawner: 5
+      MossStone: 0
+      Mycelium: 0
+      NetherBrick: 0
+      NetherBrickFence: 0
+      NetherBrickStairs: 0
+      Netherrack: 0
+      NoteBlock: 0
+      Obsidian: 2
+      Piston: 0
+      PistonSticky: 0
+      Pumpkin: 0
+      QuartzBlock: 0
+      RedstoneBlock: 0
+      RedstoneLamp: 0
+      RedstoneOre: 2
+      Sand: 0
+      Sandstone: 0
+      SandStoneStairs: 0
+      SnowBlock: 0
+      SoulSand: 0
+      Sponge: 0
+      StainedClay: 0
+      Stone: 0
+      StoneBricks: 0
+      StoneBrickStairs: 0
+      TNT: 0
+      Wood: 0
+      WoodenPlank: 0
+      WoodenStairsBirch: 0
+      WoodenStairsOak: 0
+      WoodenStairsSpruce : 0
+      WoodenStairsJungle: 0
+      WoodSlab: 0
+      Wool: 0
+      Workbench: 0
+      
+      #1.7.2
+      
+      AcaciaLogs/DarkOakLogs: 0
+      WoodenStairsAcacia: 0
+      WoodenStairsDarkOak: 0
+      StainedGlass: 0
+      StainedGlassPane: 0
+      StainedClay: 0
