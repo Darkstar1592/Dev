@@ -17,33 +17,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class SparklingTools extends JavaPlugin implements Listener{
 
-	/*public static double randSword = 0.0;
-	public static double randSword2 = 0.0;
-	public static double randSword3 = 0.0;
-	public static double randPick = 0.0;
-	public static double randPick2 = 0.0;
-	public static double randPick3 = 0.0;
-	public static double randAxe = 0.0;
-	public static double randAxe2 = 0.0;
-	public static double randAxe3 = 0.0;
-	public static double randSpade = 0.0;
-	public static double randSpade2 = 0.0;
-	public static double randSpade3 = 0.0;
-	public static double randHoe = 0.0;
-	public static double randHoe2 = 0.0;
-	public static double randHoe3 = 0.0;
-	public static double randHelm = 0.0;
-	public static double randHelm2 = 0.0;
-	public static double randHelm3 = 0.0;
-	public static double randChest = 0.0;
-	public static double randChest2 = 0.0;
-	public static double randChest3 = 0.0;
-	public static double randPants = 0.0;
-	public static double randPants2 = 0.0;
-	public static double randPants3 = 0.0;
-	public static double randBoots = 0.0;
-	public static double randBoots2 = 0.0;
-	public static double randBoots3 = 0.0;*/
 
 	ItemStack EmeraldSword;
 	ItemStack EmeraldSword2;
@@ -276,12 +249,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 	@EventHandler
 	public void onCraftSword(PrepareItemCraftEvent e){
-		//getLogger().info("Event loaded");
 		ItemStack item = e.getInventory().getResult();
-		//Player player = (Player) e.getWhoClicked();
-
-		//Emerald sword
-		//if (player.hasPermission("stools.sword")){
 			
 			if (item.getType().equals(Material.DIAMOND_SWORD) &&
 					(item.getItemMeta().getDisplayName() != null) &&
@@ -307,11 +275,6 @@ public class SparklingTools extends JavaPlugin implements Listener{
 					(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 				item.addUnsafeEnchantment(sword3Enchants[(int) (Math.random()*sword3Enchants.length)], (int) 5);
 			}
-		/*}
-		else if (!(player.hasPermission("stools.sword"))){
-			e.getInventory().setResult(null);
-			getLogger().info("You dont have permission to craft that!");
-		}*/
 
 		e.getInventory().setResult(item);
 	}
@@ -566,136 +529,8 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		chestplateRecipe();
 		leggingsRecipe();
 		bootsRecipe();
-		//godPick();
 	}
 
-	/*public void randomEnchant(){		Random rand = new Random();
-
-		randSword = rand.nextInt(25);
-		//getLogger().info("randSword refreshed!");
-		//getLogger().info("randSword = " + randSword);
-
-		randSword2 = rand.nextInt(25);
-		//getLogger().info("randSword2 refreshed!");
-		//getLogger().info("randSword2 = " + randSword2);
-
-		randSword3 = rand.nextInt(4);
-		//getLogger().info("randSword3 refreshed!");
-		//getLogger().info("randSword3 = " + randSword3);
-
-		randPick = rand.nextInt(12); 
-		//getLogger().info("randPick refreshed!");
-		//getLogger().info("randPick = " + randPick);
-
-		randPick2 = rand.nextInt(12);
-		//getLogger().info("randPick2 refreshed!");
-		//getLogger().info("randPick2 = " + randPick2);
-
-		randPick3 = rand.nextInt(3);
-		//getLogger().info("randPick3 refreshed!");
-		//getLogger().info("randPick3 = " + randPick3);
-
-		randAxe = rand.nextInt(12);
-		//getLogger().info("randAxe refreshed!");
-		//getLogger().info("randAxe = " + randAxe);
-
-		randAxe2 = rand.nextInt(12);
-		//getLogger().info("randAxe2 refreshed!");
-		//getLogger().info("randAxe2 = " + randAxe2);
-
-		randAxe3 = rand.nextInt(3);
-		//getLogger().info("randAxe3 refreshed!");
-		//getLogger().info("randAxe3 = " + randAxe3);
-
-		randSpade = rand.nextInt(12);
-		//getLogger().info("randSpade refreshed!");
-		//getLogger().info("randSpade = " + randSpade);
-
-		randSpade2 = rand.nextInt(12);
-		//getLogger().info("randSpade2 refreshed!");
-		//getLogger().info("randSpade2 = " + randSpade2);
-
-		randSpade3 = rand.nextInt(4);
-		//getLogger().info("randSpade3 refreshed!");
-		//getLogger().info("randSpade3 = " + randSpade3);
-
-		randHoe = rand.nextInt(3);
-		//getLogger().info("randHoe refreshed!");
-		//getLogger().info("randHoe = " + randHoe);
-
-		randHoe2 = rand.nextInt(3);
-		//getLogger().info("randHoe2 refreshed!");
-		//getLogger().info("randHoe2 = " + randHoe2);
-
-		randHoe3 = rand.nextInt(1);
-		//getLogger().info("randHoe3 refreshed!");
-		//getLogger().info("randHoe3 = " + randHoe3);
-
-		randHelm = rand.nextInt(17);
-		//getLogger().info("randHelm refreshed!");
-		//getLogger().info("randHelm = " + randHelm);
-
-		randHelm2 = rand.nextInt(17);
-		//getLogger().info("randHelm2 refreshed!");
-		//getLogger().info("randHelm2 = " + randHelm2);
-
-		randHelm3 = rand.nextInt(7);
-		//getLogger().info("randHelm3 refreshed!");
-		//getLogger().info("randHelm3 = " + randHelm3);
-
-		randChest = rand.nextInt(13);
-		//getLogger().info("randChest refreshed!");
-		//getLogger().info("randChest = " + randChest);
-
-		randChest2 = rand.nextInt(13);
-		//getLogger().info("randChest2 refreshed!");
-		//getLogger().info("randChest2 = " + randChest2);
-
-		randChest3 = rand.nextInt(5);
-		//getLogger().info("randChest3 refreshed!");
-		//getLogger().info("randChest3 = " + randChest3);
-
-		randPants = rand.nextInt(13);
-		//getLogger().info("randPants refreshed!");
-		//getLogger().info("randPants = " + randPants);
-
-		randPants2 = rand.nextInt(13);
-		//getLogger().info("randPants2 refreshed!");
-		//getLogger().info("randPants2 = " + randPants2);
-
-		randPants3 = rand.nextInt(5);
-		//getLogger().info("randPants3 refreshed!");
-		//getLogger().info("randPants3 = " + randPants3);
-
-		randBoots = rand.nextInt(16);
-		//getLogger().info("randPants refreshed!");
-		//getLogger().info("randBoots = " + randBoots);
-
-		randBoots2 = rand.nextInt(16);
-		//getLogger().info("randBoots2 refreshed!");
-		//getLogger().info("randBoots2 = " + randBoots2);
-
-		randBoots3 = rand.nextInt(6);
-		//getLogger().info("randBoots3 refreshed!");
-		//getLogger().info("randBoots3 = " + randBoots3);
-
-		//getLogger().info("randomEnchant refreshed!");
-	}*/
-
-	/*public void godPick(){
-		Server server = this.getServer();
-
-		ItemStack godPick = new ItemStack(Material.DIAMOND_PICKAXE, 1);
-		ItemMeta godPickMeta = godPick.getItemMeta();
-		godPickMeta.setDisplayName(ChatColor.RED + "God Pick");
-		godPick.setItemMeta(godPickMeta);
-		godPick.addUnsafeEnchantment(Enchantment.DIG_SPEED, 9001);
-		ShapedRecipe godPickRecipe = new ShapedRecipe(godPick);
-		godPickRecipe.shape("NNN", " S ", " S ");
-		godPickRecipe.setIngredient('N', Material.NETHER_STAR);
-		godPickRecipe.setIngredient('S', Material.STICK);
-		server.addRecipe(godPickRecipe);
-	}*/
 
 	public void swordRecipe(){
 		Server server = this.getServer();	
@@ -1312,29 +1147,6 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 	}
 
-	/*public void enchantRefresh(){
-		EmeraldSword.addUnsafeEnchantment(swordEnchants[(int) (Math.random()*swordEnchants.length)], (int) (Math.random()*5));
-		EmeraldSword2.addUnsafeEnchantment(swordEnchants[(int) (Math.random()*swordEnchants.length)], (int) (Math.random()*5));
-		EmeraldPickaxe.addUnsafeEnchantment(pickEnchants[(int) (Math.random()*pickEnchants.length)], (int) (Math.random()*5));
-		EmeraldPickaxe2.addUnsafeEnchantment(pickEnchants[(int) (Math.random()*pickEnchants.length)], (int) (Math.random()*5));
-		EmeraldAxe.addUnsafeEnchantment(axeEnchants[(int) (Math.random()*axeEnchants.length)], (int) (Math.random()*5));
-		EmeraldAxe2.addUnsafeEnchantment(axeEnchants[(int) (Math.random()*axeEnchants.length)], (int) (Math.random()*5));
-		EmeraldSpade.addUnsafeEnchantment(shovelEnchants[(int) (Math.random()*shovelEnchants.length)], (int) (Math.random()*5));
-		EmeraldSpade2.addUnsafeEnchantment(shovelEnchants[(int) (Math.random()*shovelEnchants.length)], (int) (Math.random()*5));
-		EmeraldHoe.addUnsafeEnchantment(hoeEnchants[(int) (Math.random()*hoeEnchants.length)], (int) (Math.random()*5));
-		EmeraldHoe2.addUnsafeEnchantment(hoeEnchants[(int) (Math.random()*hoeEnchants.length)], (int) (Math.random()*5));
-
-		EmeraldHelm.addUnsafeEnchantment(helmEnchants[(int) (Math.random()*helmEnchants.length)], (int) (Math.random()*5));
-		EmeraldHelm2.addUnsafeEnchantment(helmEnchants[(int) (Math.random()*helmEnchants.length)], (int) (Math.random()*5));
-		EmeraldChestplate.addUnsafeEnchantment(chestEnchants[(int) (Math.random()*chestEnchants.length)], (int) (Math.random()*5));
-		EmeraldChestplate2.addUnsafeEnchantment(chestEnchants[(int) (Math.random()*chestEnchants.length)], (int) (Math.random()*5));
-		EmeraldLeggings.addUnsafeEnchantment(legEnchants[(int) (Math.random()*legEnchants.length)], (int) (Math.random()*5));
-		EmeraldLeggings2.addUnsafeEnchantment(legEnchants[(int) (Math.random()*legEnchants.length)], (int) (Math.random()*5));
-		EmeraldBoots.addUnsafeEnchantment(bootEnchants[(int) (Math.random()*bootEnchants.length)], (int) (Math.random()*5));
-		EmeraldBoots2.addUnsafeEnchantment(bootEnchants[(int) (Math.random()*bootEnchants.length)], (int) (Math.random()*5));
-
-		//getLogger().info("Enchantments added!");
-	}*/
 
 	/*public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 		if(command.getName().equalsIgnoreCase("stools")) {
