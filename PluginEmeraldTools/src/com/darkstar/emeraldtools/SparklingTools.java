@@ -253,7 +253,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 			
 			if (item.getType().equals(Material.DIAMOND_SWORD) &&
 					(item.getItemMeta().getDisplayName() != null) &&
-					(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Sword")) && 
+					(item.getItemMeta().getDisplayName().equals("Emerald Sword")) && 
 					item.getItemMeta().getLore() != null &&
 					item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I")){
 				item.addUnsafeEnchantment(swordEnchants[(int) (Math.random()*swordEnchants.length)], (int) (Math.random()*5));
@@ -261,7 +261,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 			if (item.getType().equals(Material.DIAMOND_SWORD) &&
 					(item.getItemMeta().getDisplayName() != null) &&
-					(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Sword")) && 
+					(item.getItemMeta().getDisplayName().equals("Emerald Sword")) && 
 					item.getItemMeta().getLore() != null &&
 					item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II")	
 					){
@@ -270,7 +270,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 			if (item.getType().equals(Material.DIAMOND_SWORD) &&
 					(item.getItemMeta().getDisplayName() != null) &&
 					(item.getItemMeta().getDisplayName() != null) &&
-					(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Sword")) && 
+					(item.getItemMeta().getDisplayName().equals("Emerald Sword")) && 
 					(item.getItemMeta().getLore() != null) &&
 					(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 				item.addUnsafeEnchantment(sword3Enchants[(int) (Math.random()*sword3Enchants.length)], (int) 5);
@@ -285,14 +285,14 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		//Emerald Pickaxe
 		if (item.getType().equals(Material.DIAMOND_PICKAXE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Pickaxe")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Pickaxe")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I"))){
 			item.addUnsafeEnchantment(pickEnchants[(int) (Math.random()*pickEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_PICKAXE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Pickaxe")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Pickaxe")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(pickEnchants[(int) (Math.random()*pickEnchants.length)], (int) (Math.random()*5));
@@ -300,7 +300,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		if (item.getType().equals(Material.DIAMOND_PICKAXE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Pickaxe")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Pickaxe")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 			item.addUnsafeEnchantment(pick3Enchants[(int) (Math.random()*pick3Enchants.length)], (int) 5);
@@ -314,14 +314,14 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		//Emerald Axe
 		if (item.getType().equals(Material.DIAMOND_AXE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Axe")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Axe")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I"))){
 			item.addUnsafeEnchantment(axeEnchants[(int) (Math.random()*axeEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_AXE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Axe")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Axe")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(axeEnchants[(int) (Math.random()*axeEnchants.length)], (int) (Math.random()*5));
@@ -329,7 +329,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		if (item.getType().equals(Material.DIAMOND_AXE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Axe")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Axe")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 			item.addUnsafeEnchantment(axe3Enchants[(int) (Math.random()*axe3Enchants.length)], (int) 5);
@@ -344,7 +344,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		//Emerald Shovel
 		if (item.getType().equals(Material.DIAMOND_SPADE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Spade")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Spade")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I"))){
 			item.addUnsafeEnchantment(shovelEnchants[(int) (Math.random()*shovelEnchants.length)], (int) (Math.random()*5));
@@ -352,7 +352,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		if (item.getType().equals(Material.DIAMOND_SPADE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Spade")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Spade")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(shovelEnchants[(int) (Math.random()*shovelEnchants.length)], (int) (Math.random()*5));
@@ -360,7 +360,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		if (item.getType().equals(Material.DIAMOND_SPADE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Spade")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Spade")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 			item.addUnsafeEnchantment(shovel3Enchants[(int) (Math.random()*shovel3Enchants.length)], (int) 5);
@@ -375,21 +375,21 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		//Emerald Hoe
 		if (item.getType().equals(Material.DIAMOND_HOE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Hoe")) &&
+				(item.getItemMeta().getDisplayName().equals("Emerald Hoe")) &&
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I"))){
 			item.addUnsafeEnchantment(hoeEnchants[(int) (Math.random()*hoeEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_HOE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Hoe")) &&
+				(item.getItemMeta().getDisplayName().equals("Emerald Hoe")) &&
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(hoeEnchants[(int) (Math.random()*hoeEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_HOE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Hoe")) &&
+				(item.getItemMeta().getDisplayName().equals("Emerald Hoe")) &&
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 			item.addUnsafeEnchantment(hoeEnchants[(int) (Math.random()*hoeEnchants.length)], (int) (Math.random()*5));
@@ -404,7 +404,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		if (item.getType().equals(Material.DIAMOND_HELMET) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Helmet")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Helmet")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I"))){
 			item.addUnsafeEnchantment(helmEnchants[(int) (Math.random()*helmEnchants.length)], (int) (Math.random()*5));
@@ -412,7 +412,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		if (item.getType().equals(Material.DIAMOND_HELMET) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Helmet")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Helmet")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(helmEnchants[(int) (Math.random()*helmEnchants.length)], (int) (Math.random()*5));
@@ -420,7 +420,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		if (item.getType().equals(Material.DIAMOND_HELMET) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Helmet")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Helmet")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 			item.addUnsafeEnchantment(helm3Enchants[(int) (Math.random()*helm3Enchants.length)], (int) 5);
@@ -435,7 +435,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		//Emerald Chestplate
 		if (item.getType().equals(Material.DIAMOND_CHESTPLATE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Chestplate")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Chestplate")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I"))){
 			item.addUnsafeEnchantment(chestEnchants[(int) (Math.random()*chestEnchants.length)], (int) (Math.random()*5));
@@ -443,7 +443,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		if (item.getType().equals(Material.DIAMOND_CHESTPLATE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Chestplate")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Chestplate")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(chestEnchants[(int) (Math.random()*chestEnchants.length)], (int) (Math.random()*5));
@@ -451,7 +451,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		if (item.getType().equals(Material.DIAMOND_CHESTPLATE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Chestplate")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Chestplate")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 			item.addUnsafeEnchantment(chest3Enchants[(int) (Math.random()*chest3Enchants.length)], (int) 5);
@@ -466,21 +466,21 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		//Emerald Leggings
 		if (item.getType().equals(Material.DIAMOND_LEGGINGS) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Leggings")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Leggings")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I"))){
 			item.addUnsafeEnchantment(legEnchants[(int) (Math.random()*legEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_LEGGINGS) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Leggings")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Leggings")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(legEnchants[(int) (Math.random()*legEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_LEGGINGS) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Leggings")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Leggings")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 			item.addUnsafeEnchantment(leg3Enchants[(int) (Math.random()*leg3Enchants.length)], (int) 5);
@@ -495,21 +495,21 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		//Emerald Boots
 		if (item.getType().equals(Material.DIAMOND_BOOTS) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Boots")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Boots")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I"))){
 			item.addUnsafeEnchantment(bootEnchants[(int) (Math.random()*bootEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_BOOTS) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Boots")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Boots")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(bootEnchants[(int) (Math.random()*bootEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_BOOTS) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName().equals(ChatColor.GREEN + "Emerald Boots")) && 
+				(item.getItemMeta().getDisplayName().equals("Emerald Boots")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
 			item.addUnsafeEnchantment(boot3Enchants[(int) (Math.random()*boot3Enchants.length)], (int) 5);
@@ -537,7 +537,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldSword = new ItemStack(Material.DIAMOND_SWORD, 1);
 		ItemMeta EmeraldSwordMeta = EmeraldSword.getItemMeta();
-		EmeraldSwordMeta.setDisplayName(ChatColor.GREEN + "Emerald Sword");
+		EmeraldSwordMeta.setDisplayName("Emerald Sword");
 		ArrayList<String> Tier1Swordlore = new ArrayList<String>();
 		Tier1Swordlore.add(ChatColor.GOLD + "Tier I");
 		Tier1Swordlore.add("");
@@ -556,7 +556,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldSword2 = new ItemStack(Material.DIAMOND_SWORD, 1);
 		ItemMeta EmeraldSword2Meta = EmeraldSword2.getItemMeta();
-		EmeraldSword2Meta.setDisplayName(ChatColor.GREEN + "Emerald Sword");
+		EmeraldSword2Meta.setDisplayName("Emerald Sword");
 		ArrayList<String> Tier2Swordlore = new ArrayList<String>();
 		Tier2Swordlore.add(ChatColor.GOLD + "Tier II");
 		Tier2Swordlore.add("");
@@ -578,7 +578,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldSword3 = new ItemStack(Material.DIAMOND_SWORD, 1);
 		ItemMeta EmeraldSword3Meta = EmeraldSword3.getItemMeta();
-		EmeraldSword3Meta.setDisplayName(ChatColor.GREEN + "Emerald Sword");
+		EmeraldSword3Meta.setDisplayName("Emerald Sword");
 		ArrayList<String> Tier3Swordlore = new ArrayList<String>();
 		Tier3Swordlore.add(ChatColor.GOLD + "Tier III");
 		Tier3Swordlore.add("");
@@ -607,7 +607,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldPickaxe = new ItemStack(Material.DIAMOND_PICKAXE, 1);
 		ItemMeta EmeraldPickaxeMeta = EmeraldPickaxe.getItemMeta();
-		EmeraldPickaxeMeta.setDisplayName(ChatColor.GREEN + "Emerald Pickaxe");
+		EmeraldPickaxeMeta.setDisplayName("Emerald Pickaxe");
 		ArrayList<String> Tier1Picklore = new ArrayList<String>();
 		Tier1Picklore.add(ChatColor.GOLD + "Tier I");
 		Tier1Picklore.add("");
@@ -626,7 +626,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldPickaxe2 = new ItemStack(Material.DIAMOND_PICKAXE, 1);
 		ItemMeta EmeraldPickaxe2Meta = EmeraldPickaxe2.getItemMeta();
-		EmeraldPickaxe2Meta.setDisplayName(ChatColor.GREEN + "Emerald Pickaxe");
+		EmeraldPickaxe2Meta.setDisplayName("Emerald Pickaxe");
 		ArrayList<String> Tier2Picklore = new ArrayList<String>();
 		Tier2Picklore.add(ChatColor.GOLD + "Tier II");
 		Tier2Picklore.add("");
@@ -648,7 +648,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldPickaxe3 = new ItemStack(Material.DIAMOND_PICKAXE, 1);
 		ItemMeta EmeraldPickaxe3Meta = EmeraldPickaxe3.getItemMeta();
-		EmeraldPickaxe3Meta.setDisplayName(ChatColor.GREEN + "Emerald Pickaxe");
+		EmeraldPickaxe3Meta.setDisplayName("Emerald Pickaxe");
 		ArrayList<String> Tier3Picklore = new ArrayList<String>();
 		Tier3Picklore.add(ChatColor.GOLD + "Tier III");
 		Tier3Picklore.add("");
@@ -677,7 +677,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldAxe = new ItemStack(Material.DIAMOND_AXE, 1);
 		ItemMeta EmeraldAxeMeta = EmeraldAxe.getItemMeta();
-		EmeraldAxeMeta.setDisplayName(ChatColor.GREEN + "Emerald Axe");
+		EmeraldAxeMeta.setDisplayName("Emerald Axe");
 		ArrayList<String> Tier1Axelore = new ArrayList<String>();
 		Tier1Axelore.add(ChatColor.GOLD + "Tier I");
 		Tier1Axelore.add("");
@@ -696,7 +696,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldAxe2 = new ItemStack(Material.DIAMOND_AXE, 1);
 		ItemMeta EmeraldAxe2Meta = EmeraldAxe2.getItemMeta();
-		EmeraldAxe2Meta.setDisplayName(ChatColor.GREEN + "Emerald Axe");
+		EmeraldAxe2Meta.setDisplayName("Emerald Axe");
 		ArrayList<String> Tier2Axelore = new ArrayList<String>();
 		Tier2Axelore.add(ChatColor.GOLD + "Tier II");
 		Tier2Axelore.add("");
@@ -718,7 +718,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldAxe3 = new ItemStack(Material.DIAMOND_AXE, 1);
 		ItemMeta EmeraldAxe3Meta = EmeraldAxe3.getItemMeta();
-		EmeraldAxe3Meta.setDisplayName(ChatColor.GREEN + "Emerald Axe");
+		EmeraldAxe3Meta.setDisplayName("Emerald Axe");
 		ArrayList<String> Tier3Axelore = new ArrayList<String>();
 		Tier3Axelore.add(ChatColor.GOLD + "Tier III");
 		Tier3Axelore.add("");
@@ -746,7 +746,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldSpade = new ItemStack(Material.DIAMOND_SPADE, 1);
 		ItemMeta EmeraldSpadeMeta = EmeraldSpade.getItemMeta();
-		EmeraldSpadeMeta.setDisplayName(ChatColor.GREEN + "Emerald Spade");
+		EmeraldSpadeMeta.setDisplayName("Emerald Spade");
 		ArrayList<String> Tier1Spadelore = new ArrayList<String>();
 		Tier1Spadelore.add(ChatColor.GOLD + "Tier I");
 		Tier1Spadelore.add("");
@@ -765,7 +765,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldSpade2 = new ItemStack(Material.DIAMOND_SPADE, 1);
 		ItemMeta EmeraldSpade2Meta = EmeraldSpade2.getItemMeta();
-		EmeraldSpade2Meta.setDisplayName(ChatColor.GREEN + "Emerald Spade");
+		EmeraldSpade2Meta.setDisplayName("Emerald Spade");
 		ArrayList<String> Tier2Spadelore = new ArrayList<String>();
 		Tier2Spadelore.add(ChatColor.GOLD + "Tier II");
 		Tier2Spadelore.add("");
@@ -787,7 +787,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldSpade3 = new ItemStack(Material.DIAMOND_SPADE, 1);
 		ItemMeta EmeraldSpade3Meta = EmeraldSpade3.getItemMeta();
-		EmeraldSpade3Meta.setDisplayName(ChatColor.GREEN + "Emerald Spade");
+		EmeraldSpade3Meta.setDisplayName("Emerald Spade");
 		ArrayList<String> Tier3Spadelore = new ArrayList<String>();
 		Tier3Spadelore.add(ChatColor.GOLD + "Tier III");
 		Tier3Spadelore.add("");
@@ -816,7 +816,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldHoe = new ItemStack(Material.DIAMOND_HOE, 1);
 		ItemMeta EmeraldHoeMeta = EmeraldHoe.getItemMeta();
-		EmeraldHoeMeta.setDisplayName(ChatColor.GREEN + "Emerald Hoe");
+		EmeraldHoeMeta.setDisplayName("Emerald Hoe");
 		ArrayList<String> Tier1Hoelore = new ArrayList<String>();
 		Tier1Hoelore.add(ChatColor.GOLD + "Tier I");
 		Tier1Hoelore.add("");
@@ -835,7 +835,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldHoe2 = new ItemStack(Material.DIAMOND_HOE, 1);
 		ItemMeta EmeraldHoe2Meta = EmeraldHoe2.getItemMeta();
-		EmeraldHoe2Meta.setDisplayName(ChatColor.GREEN + "Emerald Hoe");
+		EmeraldHoe2Meta.setDisplayName("Emerald Hoe");
 		ArrayList<String> Tier2Hoelore = new ArrayList<String>();
 		Tier2Hoelore.add(ChatColor.GOLD + "Tier II");
 		Tier2Hoelore.add("");
@@ -857,7 +857,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldHoe3 = new ItemStack(Material.DIAMOND_HOE, 1);
 		ItemMeta EmeraldHoe3Meta = EmeraldHoe3.getItemMeta();
-		EmeraldHoe3Meta.setDisplayName(ChatColor.GREEN + "Emerald Hoe");
+		EmeraldHoe3Meta.setDisplayName("Emerald Hoe");
 		ArrayList<String> Tier3Hoelore = new ArrayList<String>();
 		Tier3Hoelore.add(ChatColor.GOLD + "Tier III");
 		Tier3Hoelore.add("");
@@ -885,7 +885,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldHelm = new ItemStack(Material.DIAMOND_HELMET, 1);
 		ItemMeta EmeraldHelmMeta = EmeraldHelm.getItemMeta();
-		EmeraldHelmMeta.setDisplayName(ChatColor.GREEN + "Emerald Helmet");
+		EmeraldHelmMeta.setDisplayName("Emerald Helmet");
 		ArrayList<String> Tier1Helmlore = new ArrayList<String>();
 		Tier1Helmlore.add(ChatColor.GOLD + "Tier I");
 		Tier1Helmlore.add("");
@@ -903,7 +903,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldHelm2 = new ItemStack(Material.DIAMOND_HELMET, 1);
 		ItemMeta EmeraldHelm2Meta = EmeraldHelm2.getItemMeta();
-		EmeraldHelm2Meta.setDisplayName(ChatColor.GREEN + "Emerald Helmet");
+		EmeraldHelm2Meta.setDisplayName("Emerald Helmet");
 		ArrayList<String> Tier2Helmlore = new ArrayList<String>();
 		Tier2Helmlore.add(ChatColor.GOLD + "Tier II");
 		Tier2Helmlore.add("");
@@ -924,7 +924,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldHelm3 = new ItemStack(Material.DIAMOND_HELMET, 1);
 		ItemMeta EmeraldHelm3Meta = EmeraldHelm3.getItemMeta();
-		EmeraldHelm3Meta.setDisplayName(ChatColor.GREEN + "Emerald Helmet");
+		EmeraldHelm3Meta.setDisplayName("Emerald Helmet");
 		ArrayList<String> Tier3Helmlore = new ArrayList<String>();
 		Tier3Helmlore.add(ChatColor.GOLD + "Tier III");
 		Tier3Helmlore.add("");
@@ -952,7 +952,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldChestplate = new ItemStack(Material.DIAMOND_CHESTPLATE, 1);
 		ItemMeta EmeraldChestplateMeta = EmeraldChestplate.getItemMeta();
-		EmeraldChestplateMeta.setDisplayName(ChatColor.GREEN + "Emerald Chestplate");
+		EmeraldChestplateMeta.setDisplayName("Emerald Chestplate");
 		ArrayList<String> Tier1Chestlore = new ArrayList<String>();
 		Tier1Chestlore.add(ChatColor.GOLD + "Tier I");
 		Tier1Chestlore.add("");
@@ -970,7 +970,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldChestplate2 = new ItemStack(Material.DIAMOND_CHESTPLATE, 1);
 		ItemMeta EmeraldChestplate2Meta = EmeraldChestplate2.getItemMeta();
-		EmeraldChestplate2Meta.setDisplayName(ChatColor.GREEN + "Emerald Chestplate");
+		EmeraldChestplate2Meta.setDisplayName("Emerald Chestplate");
 		ArrayList<String> Tier2Chestlore = new ArrayList<String>();
 		Tier2Chestlore.add(ChatColor.GOLD + "Tier II");
 		Tier2Chestlore.add("");
@@ -991,7 +991,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldChestplate3 = new ItemStack(Material.DIAMOND_CHESTPLATE, 1);
 		ItemMeta EmeraldChestplate3Meta = EmeraldChestplate3.getItemMeta();
-		EmeraldChestplate3Meta.setDisplayName(ChatColor.GREEN + "Emerald Chestplate");
+		EmeraldChestplate3Meta.setDisplayName("Emerald Chestplate");
 		ArrayList<String> Tier3Chestlore = new ArrayList<String>();
 		Tier3Chestlore.add(ChatColor.GOLD + "Tier III");
 		Tier3Chestlore.add("");
@@ -1019,7 +1019,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldLeggings = new ItemStack(Material.DIAMOND_LEGGINGS, 1);
 		ItemMeta EmeraldLeggingsMeta = EmeraldLeggings.getItemMeta();
-		EmeraldLeggingsMeta.setDisplayName(ChatColor.GREEN + "Emerald Leggings");
+		EmeraldLeggingsMeta.setDisplayName("Emerald Leggings");
 		ArrayList<String> Tier1Legslore = new ArrayList<String>();
 		Tier1Legslore.add(ChatColor.GOLD + "Tier I");
 		Tier1Legslore.add("");
@@ -1037,7 +1037,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldLeggings2 = new ItemStack(Material.DIAMOND_LEGGINGS, 1);
 		ItemMeta EmeraldLeggings2Meta = EmeraldLeggings2.getItemMeta();
-		EmeraldLeggings2Meta.setDisplayName(ChatColor.GREEN + "Emerald Leggings");
+		EmeraldLeggings2Meta.setDisplayName("Emerald Leggings");
 		ArrayList<String> Tier2Legslore = new ArrayList<String>();
 		Tier2Legslore.add(ChatColor.GOLD + "Tier II");
 		Tier2Legslore.add("");
@@ -1058,7 +1058,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldLeggings3 = new ItemStack(Material.DIAMOND_LEGGINGS, 1);
 		ItemMeta EmeraldLeggings3Meta = EmeraldLeggings3.getItemMeta();
-		EmeraldLeggings3Meta.setDisplayName(ChatColor.GREEN + "Emerald Leggings");
+		EmeraldLeggings3Meta.setDisplayName("Emerald Leggings");
 		ArrayList<String> Tier3Legslore = new ArrayList<String>();
 		Tier3Legslore.add(ChatColor.GOLD + "Tier III");
 		Tier3Legslore.add("");
@@ -1086,7 +1086,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldBoots = new ItemStack(Material.DIAMOND_BOOTS, 1);
 		ItemMeta EmeraldBootsMeta = EmeraldBoots.getItemMeta();
-		EmeraldBootsMeta.setDisplayName(ChatColor.GREEN + "Emerald Boots");
+		EmeraldBootsMeta.setDisplayName("Emerald Boots");
 		ArrayList<String> Tier1Bootslore = new ArrayList<String>();
 		Tier1Bootslore.add(ChatColor.GOLD + "Tier I");
 		Tier1Bootslore.add("");
@@ -1104,7 +1104,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldBoots2 = new ItemStack(Material.DIAMOND_BOOTS, 1);
 		ItemMeta EmeraldBoots2Meta = EmeraldBoots2.getItemMeta();
-		EmeraldBoots2Meta.setDisplayName(ChatColor.GREEN + "Emerald Boots");
+		EmeraldBoots2Meta.setDisplayName("Emerald Boots");
 		ArrayList<String> Tier2Bootslore = new ArrayList<String>();
 		Tier2Bootslore.add(ChatColor.GOLD + "Tier II");
 		Tier2Bootslore.add("");
@@ -1125,7 +1125,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		EmeraldBoots3 = new ItemStack(Material.DIAMOND_BOOTS, 1);
 		ItemMeta EmeraldBoots3Meta = EmeraldBoots3.getItemMeta();
-		EmeraldBoots3Meta.setDisplayName(ChatColor.GREEN + "Emerald Boots");
+		EmeraldBoots3Meta.setDisplayName("Emerald Boots");
 		ArrayList<String> Tier3Bootslore = new ArrayList<String>();
 		Tier3Bootslore.add(ChatColor.GOLD + "Tier III");
 		Tier3Bootslore.add("");
