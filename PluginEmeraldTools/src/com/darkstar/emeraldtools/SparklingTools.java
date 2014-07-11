@@ -161,6 +161,9 @@ public class SparklingTools extends JavaPlugin implements Listener{
 			Enchantment.PROTECTION_PROJECTILE,
 			Enchantment.PROTECTION_PROJECTILE,
 			Enchantment.PROTECTION_PROJECTILE,
+			Enchantment.PROTECTION_FIRE,
+			Enchantment.PROTECTION_FIRE,
+			Enchantment.PROTECTION_FIRE,
 			Enchantment.THORNS,
 			Enchantment.OXYGEN,
 			Enchantment.OXYGEN,
@@ -172,6 +175,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 			Enchantment.PROTECTION_ENVIRONMENTAL,
 			Enchantment.PROTECTION_EXPLOSIONS,
 			Enchantment.PROTECTION_PROJECTILE,
+			Enchantment.PROTECTION_FIRE,
 			Enchantment.THORNS, 
 			Enchantment.OXYGEN,
 			Enchantment.WATER_WORKER,
@@ -189,6 +193,9 @@ public class SparklingTools extends JavaPlugin implements Listener{
 			Enchantment.PROTECTION_PROJECTILE,
 			Enchantment.PROTECTION_PROJECTILE,
 			Enchantment.PROTECTION_PROJECTILE,
+			Enchantment.PROTECTION_FIRE,
+			Enchantment.PROTECTION_FIRE,
+			Enchantment.PROTECTION_FIRE,
 			Enchantment.THORNS,
 	};
 	Enchantment[] chest3Enchants = {
@@ -196,6 +203,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 			Enchantment.PROTECTION_ENVIRONMENTAL, 
 			Enchantment.PROTECTION_EXPLOSIONS, 
 			Enchantment.PROTECTION_PROJECTILE, 
+			Enchantment.PROTECTION_FIRE,
 			Enchantment.THORNS,
 	};
 	Enchantment[] legEnchants = {
@@ -211,13 +219,17 @@ public class SparklingTools extends JavaPlugin implements Listener{
 			Enchantment.PROTECTION_PROJECTILE,
 			Enchantment.PROTECTION_PROJECTILE,
 			Enchantment.PROTECTION_PROJECTILE,
+			Enchantment.PROTECTION_FIRE,
+			Enchantment.PROTECTION_FIRE,
+			Enchantment.PROTECTION_FIRE,
 			Enchantment.THORNS,
 	};
 	Enchantment[] leg3Enchants = {
 			Enchantment.DURABILITY,
 			Enchantment.PROTECTION_ENVIRONMENTAL,
 			Enchantment.PROTECTION_EXPLOSIONS,
-			Enchantment.PROTECTION_PROJECTILE, 
+			Enchantment.PROTECTION_PROJECTILE,
+			Enchantment.PROTECTION_FIRE,
 			Enchantment.THORNS,
 	};
 	Enchantment[] bootEnchants = {
@@ -233,6 +245,9 @@ public class SparklingTools extends JavaPlugin implements Listener{
 			Enchantment.PROTECTION_PROJECTILE,
 			Enchantment.PROTECTION_PROJECTILE,
 			Enchantment.PROTECTION_PROJECTILE,
+			Enchantment.PROTECTION_FIRE,
+			Enchantment.PROTECTION_FIRE,
+			Enchantment.PROTECTION_FIRE,
 			Enchantment.THORNS,
 			Enchantment.PROTECTION_FALL,
 			Enchantment.PROTECTION_FALL,
@@ -243,6 +258,7 @@ public class SparklingTools extends JavaPlugin implements Listener{
 			Enchantment.PROTECTION_ENVIRONMENTAL, 
 			Enchantment.PROTECTION_EXPLOSIONS, 
 			Enchantment.PROTECTION_PROJECTILE,
+			Enchantment.PROTECTION_FIRE,
 			Enchantment.THORNS,
 			Enchantment.PROTECTION_FALL,
 	};
@@ -268,7 +284,6 @@ public class SparklingTools extends JavaPlugin implements Listener{
 				item.addUnsafeEnchantment(swordEnchants[(int) (Math.random()*swordEnchants.length)], (int) (Math.random()*5));
 			}
 			if (item.getType().equals(Material.DIAMOND_SWORD) &&
-					(item.getItemMeta().getDisplayName() != null) &&
 					(item.getItemMeta().getDisplayName() != null) &&
 					(item.getItemMeta().getDisplayName().equals("Emerald Sword")) && 
 					(item.getItemMeta().getLore() != null) &&
@@ -299,7 +314,6 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		}
 		if (item.getType().equals(Material.DIAMOND_PICKAXE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName().equals("Emerald Pickaxe")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
@@ -328,7 +342,6 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		}
 		if (item.getType().equals(Material.DIAMOND_AXE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName().equals("Emerald Axe")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier III"))){
@@ -351,14 +364,12 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		}
 		if (item.getType().equals(Material.DIAMOND_SPADE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName().equals("Emerald Spade")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(shovelEnchants[(int) (Math.random()*shovelEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_SPADE) &&
-				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName().equals("Emerald Spade")) && 
 				(item.getItemMeta().getLore() != null) && 
@@ -403,7 +414,6 @@ public class SparklingTools extends JavaPlugin implements Listener{
 
 		if (item.getType().equals(Material.DIAMOND_HELMET) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName().equals("Emerald Helmet")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier I"))){
@@ -411,14 +421,12 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		}
 		if (item.getType().equals(Material.DIAMOND_HELMET) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName().equals("Emerald Helmet")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(helmEnchants[(int) (Math.random()*helmEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_HELMET) &&
-				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName().equals("Emerald Helmet")) && 
 				(item.getItemMeta().getLore() != null) && 
@@ -442,14 +450,12 @@ public class SparklingTools extends JavaPlugin implements Listener{
 		}
 		if (item.getType().equals(Material.DIAMOND_CHESTPLATE) &&
 				(item.getItemMeta().getDisplayName() != null) &&
-				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName().equals("Emerald Chestplate")) && 
 				(item.getItemMeta().getLore() != null) && 
 				(item.getItemMeta().getLore().contains(ChatColor.GOLD + "Tier II"))){
 			item.addUnsafeEnchantment(chestEnchants[(int) (Math.random()*chestEnchants.length)], (int) (Math.random()*5));
 		}
 		if (item.getType().equals(Material.DIAMOND_CHESTPLATE) &&
-				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName() != null) &&
 				(item.getItemMeta().getDisplayName().equals("Emerald Chestplate")) && 
 				(item.getItemMeta().getLore() != null) && 
